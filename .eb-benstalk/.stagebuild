@@ -2,7 +2,7 @@
 
 # Author: PGS
 
-codeBuildBucket="sample-pipeline"
+codeBuildBucket="demopimcorw321"
 
 buildFolder="builds"
 
