@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Author: PGS
+#aws
 
 codeBuildBucket="codepipeline-us-east-1-75169819310"
 
