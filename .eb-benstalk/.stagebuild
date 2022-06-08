@@ -4,9 +4,9 @@
 
 codeBuildBucket="demopimcorw321"
 
-buildFolder="builds"
+buildFolder="SourceArti/"
 
-buildZipName="sample.zip"
+buildZipName="Bjo761i.zip"
 
 mkdir -p ${buildFolder}
 
