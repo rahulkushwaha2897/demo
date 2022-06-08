@@ -2,7 +2,7 @@
 
 # Author: PGS
 
-codeBuildBucket="demopimcorw321"
+codeBuildBucket="codepipeline-us-east-1-75169819310"
 
 buildFolder="SourceArti/"
 
