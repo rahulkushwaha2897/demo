@@ -29,7 +29,7 @@ if [ ! -d "$vend" ]
 then
   mkdir -p /var/www/html/vendor
   cd /var/www/html/
-  aws s3 cp s3://guardian-packages/vendor.zip . 
-  unzip vendor.zip
+  #aws s3 cp s3://guardian-packages/vendor.zip . 
+  #unzip vendor.zip
 
 fi
