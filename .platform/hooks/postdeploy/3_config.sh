@@ -1,12 +1,12 @@
 #!/bin/bash
 env=`/opt/elasticbeanstalk/bin/get-config environment |tr -s "," "\n" |grep "Server_Env" |cut -d ":" -f2 |sed 's/\"//g'`
 if [ $env == "Stage}" ];then
-mv /var/www/html/.eb-benstalk/templates/stage/php.conf /etc/httpd/conf.d/elasticbeanstalk/php.conf
-mv /var/www/html/.eb-benstalk/templates/stage/crontab.txt /tmp/crontab.txt
-mv /var/www/html/.eb-benstalk/templates/stage/php.ini /etc/php.ini
+#mv /var/www/html/.eb-benstalk/templates/stage/php.conf /etc/httpd/conf.d/elasticbeanstalk/php.conf
+#mv /var/www/html/.eb-benstalk/templates/stage/crontab.txt /tmp/crontab.txt
+#mv /var/www/html/.eb-benstalk/templates/stage/php.ini /etc/php.ini
 mv /var/www/html/.eb-benstalk/templates/stage/composer.json /var/www/html/composer.json
 mv /var/www/html/.eb-benstalk/templates/stage/htaccess /var/www/html/public/.htaccess
-mv /var/www/html/.eb-benstalk/templates/stage/database.yml /var/www/html/app/config/local/database.yml
+mv /var/www/html/.eb-benstalk/templates/stage/database.yml /var/www/html/app/config/local/database.yaml
 
 
 cronsdir="/opt/crons"
