@@ -15,7 +15,7 @@ ln -s /efs/storage/var/tmp .
 #ln -s /efs/storage/var/recyclebin .
 
 #linking /var/www/html/web/var directory with efs storage directory
-cd  /var/www/html/web/
+cd  /var/www/html/public/
 rm -rf var
 ln -s /efs/storage/web-var  var 
 
