@@ -3,7 +3,7 @@
 # Author: PGS
 #aws
 
-codeBuildBucket="sample-pipeline"
+codeBuildBucket="demopimcorw321"
 
 buildFolder="builds"
 
