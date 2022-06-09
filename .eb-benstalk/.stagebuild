@@ -3,11 +3,11 @@
 # Author: PGS
 #aws
 
-codeBuildBucket="codepipeline-us-east-1-75169819310"
+codeBuildBucket="sample-pipeline"
 
-buildFolder="SourceArti/"
+buildFolder="builds"
 
-buildZipName="Bjo761i.zip"
+buildZipName="sample.zip"
 
 mkdir -p ${buildFolder}
 
